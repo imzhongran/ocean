@@ -1,0 +1,41 @@
+*{ margin: 0; padding: 0; }
+body{ font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 300;}
+.banner{ background-image: url(../images/ocean-bg.jpg); background-attachment: fixed;background-position: center top; background-repeat: no-repeat; background-size: 100% 800px; color: #fff; height: 800px; text-align: center;}
+.banner_inner { margin-top: 200px; }
+.banner h1 { font-size: 4.5rem; margin-bottom: 3.5rem;}
+.banner p { font-size: 2rem; margin-bottom: 4rem; width: 100%;}
+.banner a { font-size: 2.4rem; color: #a1c7f1; background-color: white; padding: 0.75rem 2.5rem; border-radius: 0.5rem; text-decoration: none;}
+.banner a:hover { color: #fff; background-color: #A2D1FF; transition: all 0.3s; }
+.mycarousel { margin: 5rem auto; padding-bottom: 3rem; text-align: center; }
+.mycarousel h2 { color: #81b4eb; font-size: 2.1rem; font-weight: 300; margin-bottom: 3rem; }
+.mycarousel p { font-size: 1.3rem; line-height: 1.6; color: #666; font-weight: 300;}
+.carousel-indicators { bottom: 0; margin-bottom: 0; }
+.carousel-indicators .active { background-color: #81b4eb; margin: 1px; width: 20px; height: 20px; margin-left: 0.5rem; margin-right: 0.5rem; }
+.carousel-indicators li { background-color: rgb(205, 215, 226); border-color: rgb(205, 215, 226); width: 20px; height: 20px; margin-left: 0.5rem; margin-right: 0.5rem; }
+.readMore h2 { color: #81b4eb; font-size: 1.9rem; font-weight: 300;margin-bottom: 5%; }
+.readMore p { color: #81b4eb;font-size: 1.4rem; font-weight: 300; line-height: 1.9; margin-bottom: 6%; width: 100%; }
+.readMore a { background-color: transparent; border: 2px solid #81b4eb; border-radius: 2.5rem; color: #81b4eb; display: inline-block; font-size: 1.5rem; font-weight: 400; padding: 0.8rem 3.5rem; text-decoration:none; }
+.readMore a:hover{ color: white; background-color: #81b4eb; transition: all 0.3s; }
+.txt{ padding: 8rem; }
+.about { padding-top: 6rem; padding-bottom: 6rem; background-color: #b9d6f4;}
+.about h2 { font-size: 2.1rem; margin-bottom: 1.8rem; }
+.about p { font-size: 1.4rem; line-height: 1.6; max-width: 700px; margin: 0 auto 5rem; }
+.icon_box { background-color: #d3e6f8; border: 1px solid white; padding: 3rem; max-width: 400px; }
+.icon_box > .fa { color: #81b4eb; margin-bottom: 2rem; width: 100%; text-align: center; }
+.txt_list h3 { margin-bottom: 1.4rem; }
+.txt_list p { line-height: 1.8; margin-bottom: 0; }
+.keep{ padding: 10rem 0; }
+.keep_inner { margin: 0 auto;max-width: 1500px;}
+.form-control { padding: .75rem 1.75rem; font-size: 1.2rem; border-radius: 2.5rem; border-color: #68a8e8; }
+.form-control:focus { border-color: #1768A9; }
+textarea.form-control { padding-top: 1.15rem; padding-bottom: 1.15rem;}
+.left { padding-left: 0; }
+.right { padding-right: 0; }
+.footer_left .btn{ background-color: transparent; border: 2px solid #81b4eb; border-radius: 2.5rem; color: #81b4eb; display: inline-block; font-size: 1.5rem; font-weight: 400; padding: 0.8rem 3.5rem; }
+.footer_right { padding-left: 3%; }
+.footer_left .btn:hover{ color: white; background-color: #81b4eb; transition: all 0.3s;  }
+.footer_right h3 { font-size: 1.6rem; }
+.footer_right p { line-height: 1.8; margin-bottom: 5%; }
+.icon_list { margin-top: 20px; }
+.icon_list .icons { background-color: transparent;color: #81b4eb; padding: 5px; border: 1px solid #68a8e8; border-radius: 50%; margin-right: 2%; width: 40px; height: 40px; display: inline-block; text-align: center;}
+.icons:hover { color: white; background-color: #81b4eb; transition: all 0.3s; }
